@@ -5,7 +5,11 @@ import androidx.annotation.WorkerThread
 import kotlinx.coroutines.flow.Flow
 
 class WordRepository {
-    val allWords: Any
+    fun insert(word: Word) {
+
+    }
+
+    val allWords: Any = TODO()
 
     // Declares the DAO as a private property in the constructor. Pass in the DAO
 // instead of the whole database, because you only need access to the DAO
